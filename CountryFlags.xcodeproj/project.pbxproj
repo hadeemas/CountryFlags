@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E380D1052454490000A4EF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E380D1042454490000A4EF3E /* AppDelegate.swift */; };
+		E380D1072454490000A4EF3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E380D1062454490000A4EF3E /* SceneDelegate.swift */; };
+		E380D1092454490000A4EF3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E380D1082454490000A4EF3E /* ViewController.swift */; };
+		E380D10C2454490000A4EF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E380D10A2454490000A4EF3E /* Main.storyboard */; };
+		E380D10E2454490100A4EF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E380D10D2454490100A4EF3E /* Assets.xcassets */; };
+		E380D1112454490100A4EF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E380D10F2454490100A4EF3E /* LaunchScreen.storyboard */; };
+		E380D11C2454490200A4EF3E /* CountryFlagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E380D11B2454490200A4EF3E /* CountryFlagsTests.swift */; };
+		E380D1272454490200A4EF3E /* CountryFlagsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E380D1262454490200A4EF3E /* CountryFlagsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E380D1182454490200A4EF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E380D0F92454490000A4EF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E380D1002454490000A4EF3E;
+			remoteInfo = CountryFlags;
+		};
+		E380D1232454490200A4EF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E380D0F92454490000A4EF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E380D1002454490000A4EF3E;
+			remoteInfo = CountryFlags;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E380D1012454490000A4EF3E /* CountryFlags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryFlags.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E380D1042454490000A4EF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E380D1062454490000A4EF3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E380D1082454490000A4EF3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E380D10B2454490000A4EF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E380D10D2454490100A4EF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E380D1102454490100A4EF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E380D1122454490100A4EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E380D1172454490200A4EF3E /* CountryFlagsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryFlagsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E380D11B2454490200A4EF3E /* CountryFlagsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFlagsTests.swift; sourceTree = "<group>"; };
+		E380D11D2454490200A4EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E380D1222454490200A4EF3E /* CountryFlagsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountryFlagsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E380D1262454490200A4EF3E /* CountryFlagsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFlagsUITests.swift; sourceTree = "<group>"; };
+		E380D1282454490200A4EF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E380D0FE2454490000A4EF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E380D1142454490200A4EF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E380D11F2454490200A4EF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E380D0F82454490000A4EF3E = {
+			isa = PBXGroup;
+			children = (
+				E380D1032454490000A4EF3E /* CountryFlags */,
+				E380D11A2454490200A4EF3E /* CountryFlagsTests */,
+				E380D1252454490200A4EF3E /* CountryFlagsUITests */,
+				E380D1022454490000A4EF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E380D1022454490000A4EF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E380D1012454490000A4EF3E /* CountryFlags.app */,
+				E380D1172454490200A4EF3E /* CountryFlagsTests.xctest */,
+				E380D1222454490200A4EF3E /* CountryFlagsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E380D1032454490000A4EF3E /* CountryFlags */ = {
+			isa = PBXGroup;
+			children = (
+				E380D1042454490000A4EF3E /* AppDelegate.swift */,
+				E380D1062454490000A4EF3E /* SceneDelegate.swift */,
+				E380D1082454490000A4EF3E /* ViewController.swift */,
+				E380D10A2454490000A4EF3E /* Main.storyboard */,
+				E380D10D2454490100A4EF3E /* Assets.xcassets */,
+				E380D10F2454490100A4EF3E /* LaunchScreen.storyboard */,
+				E380D1122454490100A4EF3E /* Info.plist */,
+			);
+			path = CountryFlags;
+			sourceTree = "<group>";
+		};
+		E380D11A2454490200A4EF3E /* CountryFlagsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E380D11B2454490200A4EF3E /* CountryFlagsTests.swift */,
+				E380D11D2454490200A4EF3E /* Info.plist */,
+			);
+			path = CountryFlagsTests;
+			sourceTree = "<group>";
+		};
+		E380D1252454490200A4EF3E /* CountryFlagsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E380D1262454490200A4EF3E /* CountryFlagsUITests.swift */,
+				E380D1282454490200A4EF3E /* Info.plist */,
+			);
+			path = CountryFlagsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E380D1002454490000A4EF3E /* CountryFlags */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E380D12B2454490200A4EF3E /* Build configuration list for PBXNativeTarget "CountryFlags" */;
+			buildPhases = (
+				E380D0FD2454490000A4EF3E /* Sources */,
+				E380D0FE2454490000A4EF3E /* Frameworks */,
+				E380D0FF2454490000A4EF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountryFlags;
+			productName = CountryFlags;
+			productReference = E380D1012454490000A4EF3E /* CountryFlags.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E380D1162454490200A4EF3E /* CountryFlagsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E380D12E2454490200A4EF3E /* Build configuration list for PBXNativeTarget "CountryFlagsTests" */;
+			buildPhases = (
+				E380D1132454490200A4EF3E /* Sources */,
+				E380D1142454490200A4EF3E /* Frameworks */,
+				E380D1152454490200A4EF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E380D1192454490200A4EF3E /* PBXTargetDependency */,
+			);
+			name = CountryFlagsTests;
+			productName = CountryFlagsTests;
+			productReference = E380D1172454490200A4EF3E /* CountryFlagsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E380D1212454490200A4EF3E /* CountryFlagsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E380D1312454490200A4EF3E /* Build configuration list for PBXNativeTarget "CountryFlagsUITests" */;
+			buildPhases = (
+				E380D11E2454490200A4EF3E /* Sources */,
+				E380D11F2454490200A4EF3E /* Frameworks */,
+				E380D1202454490200A4EF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E380D1242454490200A4EF3E /* PBXTargetDependency */,
+			);
+			name = CountryFlagsUITests;
+			productName = CountryFlagsUITests;
+			productReference = E380D1222454490200A4EF3E /* CountryFlagsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E380D0F92454490000A4EF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ali Aleid";
+				TargetAttributes = {
+					E380D1002454490000A4EF3E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E380D1162454490200A4EF3E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E380D1002454490000A4EF3E;
+					};
+					E380D1212454490200A4EF3E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E380D1002454490000A4EF3E;
+					};
+				};
+			};
+			buildConfigurationList = E380D0FC2454490000A4EF3E /* Build configuration list for PBXProject "CountryFlags" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E380D0F82454490000A4EF3E;
+			productRefGroup = E380D1022454490000A4EF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E380D1002454490000A4EF3E /* CountryFlags */,
+				E380D1162454490200A4EF3E /* CountryFlagsTests */,
+				E380D1212454490200A4EF3E /* CountryFlagsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E380D0FF2454490000A4EF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E380D1112454490100A4EF3E /* LaunchScreen.storyboard in Resources */,
+				E380D10E2454490100A4EF3E /* Assets.xcassets in Resources */,
+				E380D10C2454490000A4EF3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E380D1152454490200A4EF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E380D1202454490200A4EF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E380D0FD2454490000A4EF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E380D1092454490000A4EF3E /* ViewController.swift in Sources */,
+				E380D1052454490000A4EF3E /* AppDelegate.swift in Sources */,
+				E380D1072454490000A4EF3E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E380D1132454490200A4EF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E380D11C2454490200A4EF3E /* CountryFlagsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E380D11E2454490200A4EF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E380D1272454490200A4EF3E /* CountryFlagsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E380D1192454490200A4EF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E380D1002454490000A4EF3E /* CountryFlags */;
+			targetProxy = E380D1182454490200A4EF3E /* PBXContainerItemProxy */;
+		};
+		E380D1242454490200A4EF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E380D1002454490000A4EF3E /* CountryFlags */;
+			targetProxy = E380D1232454490200A4EF3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E380D10A2454490000A4EF3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E380D10B2454490000A4EF3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E380D10F2454490100A4EF3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E380D1102454490100A4EF3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E380D1292454490200A4EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E380D12A2454490200A4EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E380D12C2454490200A4EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8JX73C4WT;
+				INFOPLIST_FILE = CountryFlags/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontbonne.CountryFlags;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E380D12D2454490200A4EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8JX73C4WT;
+				INFOPLIST_FILE = CountryFlags/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontbonne.CountryFlags;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E380D12F2454490200A4EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8JX73C4WT;
+				INFOPLIST_FILE = CountryFlagsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontbonne.CountryFlagsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryFlags.app/CountryFlags";
+			};
+			name = Debug;
+		};
+		E380D1302454490200A4EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8JX73C4WT;
+				INFOPLIST_FILE = CountryFlagsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontbonne.CountryFlagsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountryFlags.app/CountryFlags";
+			};
+			name = Release;
+		};
+		E380D1322454490200A4EF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8JX73C4WT;
+				INFOPLIST_FILE = CountryFlagsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontbonne.CountryFlagsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountryFlags;
+			};
+			name = Debug;
+		};
+		E380D1332454490200A4EF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P8JX73C4WT;
+				INFOPLIST_FILE = CountryFlagsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontbonne.CountryFlagsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CountryFlags;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E380D0FC2454490000A4EF3E /* Build configuration list for PBXProject "CountryFlags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E380D1292454490200A4EF3E /* Debug */,
+				E380D12A2454490200A4EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E380D12B2454490200A4EF3E /* Build configuration list for PBXNativeTarget "CountryFlags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E380D12C2454490200A4EF3E /* Debug */,
+				E380D12D2454490200A4EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E380D12E2454490200A4EF3E /* Build configuration list for PBXNativeTarget "CountryFlagsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E380D12F2454490200A4EF3E /* Debug */,
+				E380D1302454490200A4EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E380D1312454490200A4EF3E /* Build configuration list for PBXNativeTarget "CountryFlagsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E380D1322454490200A4EF3E /* Debug */,
+				E380D1332454490200A4EF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E380D0F92454490000A4EF3E /* Project object */;
+}
